@@ -1,0 +1,129 @@
+* {
+    color: #777777;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    outline: none;
+
+}
+
+body {
+    margin-bottom: 20px;
+    background: #8A51FC
+    
+}
+
+
+img {
+    display: block;
+    width: 250px;
+    height: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    padding: 44px 24px 23px;
+    margin: 0 auto;
+    width: 375px;
+    background: #f4f4f4;
+    border-radius: 20px;
+}
+
+
+
+b {
+    font-weight: 700;
+    color: #555555;
+    width: 104px;
+    height: 18px;
+}
+
+select {
+    width: 327px;
+    height: 30px;
+    margin-bottom: 24px;
+    font-weight: 700;
+
+}
+
+.options {
+    font-weight: 700;
+}
+ 
+
+::placeholder {
+    font-weight: 700;
+    font-weight: bold;
+}
+
+
+select {
+    border: none;
+    margin-top: 44px 24px 0px 24px;
+    appearance: none;
+}
+
+.select2 {
+    border: none;
+
+}
+
+
+label {
+    color: #bbbbbb;
+    width: 110px;
+    border-radius: 4px;
+    
+
+}
+
+input {
+    width: 327px;
+    height: 30px;
+    border: none;
+    margin-bottom: 24px;
+    
+}
+
+section {
+    justify-items: center;
+}
+
+button {
+    border-radius: 4px;
+    border: none;
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #772FD3;
+    Width: 327px;
+    Height: 48px;
+    margin-bottom: 24px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    opacity: 0.40;
+}
+
+button:active {
+    opacity: 0.70;
+}
+
+.logo-moedas {
+    Width: 60px;
+    Height: 60px;
+    margin-bottom: 10px;
+
+}
+
+p , .div-moedas {
+    display: block;
+    justify-items: center;
+    margin-bottom: 15px;
+}

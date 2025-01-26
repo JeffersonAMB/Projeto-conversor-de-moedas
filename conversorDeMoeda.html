@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&family=Pacifico&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link href="./conversor.css" rel="stylesheet">
+    <title>Conversor de Moedas</title>
+</head>
+
+<body>
+    <img src="./img/logo.gif" class="logo" alt="logo-do-conversor">
+    <main>
+        <label>
+            Converter <b>De:</b>
+            <br>
+            <select id="converter-de">
+                <option value="dolar" class="options"><b>$ Dólar Americano</b> </option>
+                <option value="real" class="options"><b>R$ Real Brasileiro </b> </option>
+                <option value="euro" class="options"><b>€ Euro</b> </option>
+                
+            </select>
+        </label>
+        <br>
+        <label>
+            Converter <b>Para</b>
+            <br>
+            <select id="converter-para">
+                <option value="dolar" class="options"><b>$ Dólar Americano</b></option>
+                <option value="real"  class="options"><b>R$ Real Brasileiro</b> </option>
+                <option value="euro"  class="options"><b>€ Euro</b></option>
+                
+            </select>
+        </label>
+        <br>
+        <label class="label-input">
+            Valor:
+            <br>
+            <input placeholder="0,00" id="input">
+        </label>
+        <br>
+
+        <button id="conveter">Converter</button>
+
+        <section>
+            <div class="div-moedas">
+                <img id="logo-a-converter" src="./img/estados-unidos.png" alt="euro" class="logo-moedas">
+                <p id="paragrafo-a-converter" class="label-convertido"><b>Reais</b></p>
+                <p id="valoraconverter"><b>R$ 0,00</b></p>
+                    
+
+            </div>
+            <div>
+                <img id="logo-moeda-a-converter" src="./img/seta.png" alt="Converter-Para" class="logo-moedas">
+            </div>
+            <div class="div-moedas">
+                <img id="logo-moeda-convertida" src="./img/estados-unidos.png" alt="logo-dolar" class="logo-moedas">
+                <p id="paragrafo-convertido" class="label-convertido"><b>Dólar</p></b>
+                <p id="valor-convertido"><b>$ 0,00</b></p>
+                    
+            </div>
+        </section>
+    </main>
+</body>
+<script src="./conversor.js"></script>
+
+</html>
