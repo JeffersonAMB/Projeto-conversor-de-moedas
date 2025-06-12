@@ -80,9 +80,13 @@ Design system consistente - coerência visual em toda aplicação
 Desenvolvedor que:
 
 ✅ Entrega projetos completos e polidos
+
 ✅ Escreve código limpo e manutenível
+
 ✅ Pensa em experiência do usuário
+
 ✅ Tem base sólida para crescer rapidamente
+
 
 = Contratação de baixo risco e alto potencial
 
